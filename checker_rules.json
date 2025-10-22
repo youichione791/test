@@ -1,0 +1,19 @@
+{
+    "typos": [
+        {"wrong": "PET-CT", "correct": "PET/CT"}
+    ],
+    "required_keywords": [
+        {"keyword": "FDG"}
+    ],
+    "required_patterns": [
+        {
+            "name": "数字全角チェック",
+            "pattern": "[０-９]+"
+        }
+    ],
+    "suvmax_check": {
+        "enabled": true,
+        "keyword": "SUVmax",
+        "pattern": "SUVmax\\s*[:：]?\\s*([0-9]+\\.?[0-9]*)"
+    }
+}
